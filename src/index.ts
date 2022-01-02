@@ -20,6 +20,8 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cors(corsOptions))
 
+
+
 // corspolicy
 app.use((req,res,next) => {
   res.setHeader('Access-Control-Allow-Origin','https://batino.netlify.app')
