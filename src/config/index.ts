@@ -5,8 +5,8 @@ export default {
     host: 'localhost'
   },
   MAIL: {
-    GMAIL_USER: process.env.GMAIL_AUTH_USER,
-    GMAIL_PASS: process.env.GMAIL_AUTH_PASS,
+    GMAIL_USER: "physcript@gmai.com",
+    GMAIL_PASS: "nodejavascript2021",
     HOST: 'smtp.gmail.com',
     PORT: 587
   }
