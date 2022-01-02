@@ -6,7 +6,7 @@ export default {
   },
   MAIL: {
     GMAIL_USER: "physcript@gmail.com",
-    GMAIL_PASS: "nodejavascrip2021",
+    GMAIL_PASS: "lbuenvnkdgccpuua",
     HOST: 'smtp.gmail.com',
     PORT: 587
   }
