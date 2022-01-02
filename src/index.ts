@@ -22,11 +22,11 @@ app.use(cors(corsOptions))
 
 // corspolicy
 app.use((req,res,next) => {
-  res.setHeader('Access-Control-Allow-Origin','http://localhost:3000')
+  res.setHeader('Access-Control-Allow-Origin','https://batino.netlify.app')
   res.setHeader('Access-Control-Allow-Methods', 'PUT,PATCH,DELETE,GET,POST')
   res.setHeader('Access-Control-Allow-headers','X-Requested-With,Content-Type')
   res.setHeader('Access-Control-Allow-credentials','true')
-  next()
+  next()  
 })
 
 // middleware
